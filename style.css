@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#big_box {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+#hd {
+    width:100vw ;
+    height:10vh ;
+    background-color:lightseagreen ;
+}
+#mn {
+    width:100vw ;
+    height:80vh ;
+    background-color:bisque ;
+}
+#ft {
+    width:100vw ;
+    height:10vh ;
+    background-color:black ;
+}
