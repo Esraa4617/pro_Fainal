@@ -10,17 +10,102 @@
 }
 
 #hd {
-    width:100vw ;
-    height:10vh ;
-    background-color:lightseagreen ;
+    width: 100vw;
+    height: 10vh;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    display: flex;
 }
+
+.hd_sec {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hd_1 {
+    /* width: 20vw; */
+    flex: 2;
+}
+
+#hd_2 {
+    /* width: 20vw; */
+    flex: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hd_3 {
+    /* width: 60vw; */
+    flex: 4;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+#nav_list {
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    font-size: 20px;
+}
+
+.list_item {
+    /* border: 1px solid #000; */
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.list_item a {
+    text-decoration: none;
+    color: #000;
+}
+
 #mn {
-    width:100vw ;
-    height:80vh ;
-    background-color:bisque ;
+    width: 100vw;
+    height: 80vh;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "mn_1 mn_4"
+    "mn_2 mn_4"
+    "mn_3 mn_4"
+    ;
+    /* gap: 1vh; */
 }
+
+#mn_1 {
+    grid-area: mn_1;
+}
+#mn_2 {
+    grid-area: mn_2;
+}
+#mn_3 {
+    grid-area: mn_3;
+}
+#mn_4 {
+    grid-area: mn_4;
+}
+
 #ft {
-    width:100vw ;
-    height:10vh ;
-    background-color:black ;
+    width: 100vw;
+    height: 10vh;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+#ft_1 {
+   flex: 1; 
+}
+#ft_2 {
+   flex: 1; 
 }
