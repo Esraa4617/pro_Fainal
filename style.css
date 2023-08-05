@@ -1,3 +1,225 @@
+
+/*--------------------------small screens---------------*/
+@media only screen and (min-width: 375px) and (max-width:699px) {
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#big_box {
+    width: 100vw;
+    height: 140vh;
+    background-color: antiquewhite;
+}
+
+/*-------------------------------header--------------------------------*/
+
+#hd {
+    width: 100vw;
+    height: 20vh;
+    background-color: aliceblue;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction:column;
+}
+
+.hd_sec {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hd_1 {
+    /* width: 20vw; */
+    flex: 1;
+    justify-content:center;
+}
+
+#hd_2 {
+    /* width: 20vw; */
+    flex: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content:center;
+}
+.h1 {
+    font-size: 20px;
+}
+
+#hd_3 {
+    /* width: 60vw; */
+    flex: 1;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#nav_list {
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    font-size: 15px;
+    text-align: center;
+}
+
+.list_item {
+    /* border: 1px solid #000; */
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.list_item a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*-------------------------------main--------------------------------*/
+
+#mn {
+    width: 100vw;
+    height: auto;
+    background-color: aliceblue;
+    /* border: 1px solid #000; */
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "mn_1"
+    "mn_2"
+    "mn_3"
+    "mn_4"
+    ;
+    /* gap: 1vh; */
+}
+
+#mn_1 {
+    grid-area: mn_1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.mn_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+#image_1 {
+    float: right;
+    width: 300px;
+    height: 450px;
+}
+#mn_2 {
+    grid-area: mn_2;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#mn_3 {
+    grid-area: mn_3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+#mn_4 {
+    grid-area: mn_4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+#image_2 {
+    float: center;
+    width: 300px;
+    height: 250px;
+}
+#image_3 {
+    float: center;
+    width: 300px;
+    height: 250px;
+}
+
+/*-------------------------------footer--------------------------------*/
+
+#ft {
+    width: 100vw;
+    height: 20vh;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px solid white;
+}
+
+#ft_1 {
+   flex: 1;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: row;
+   /* gap: 1px solid white; */
+}
+.label {
+    font-size: 10px;
+}
+#ft_2 {
+   flex: 1; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: row;
+   justify-content: center;
+}
+.h2 {
+    font-size: 10px;
+}
+#icon_1 {
+    width: 10vw;
+    height: 5vh;
+}
+#icon_2 {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 25px;
+}
+#icon_3 {
+    width: 7.5vw;
+    height: 4.5vh;
+}
+#icon_4 {
+    width: 10vw;
+    height: 6vh;
+}
+  
+}
+
+/*--------------------------medium screens---------------*/
+@media only screen and (min-width: 700px) and (max-width: 999px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #big_box {
+        width: 100vw;
+        height: 100vh;
+        background-color: antiquewhite;
+    }
+}
+
+/*-----------------------large screens---------------*/
+@media only screen and (min-width: 1000px){
+
 * {
     padding: 0px;
     margin: 0px;
@@ -8,6 +230,9 @@
     height: 100vh;
     background-color: antiquewhite;
 }
+
+/*-------------------------------header--------------------------------*/
+@media only screen and (min-width: 1000px){
 
 #hd {
     width: 100vw;
@@ -34,6 +259,9 @@
     flex: 2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.h1 {
+    font-size: 20px;
+}
 
 #hd_3 {
     /* width: 60vw; */
@@ -50,7 +278,7 @@
     list-style: none;
     display: flex;
     gap: 5vw;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .list_item {
@@ -64,6 +292,8 @@
     text-decoration: none;
     color: #000;
 }
+
+/*-------------------------------main--------------------------------*/
 
 #mn {
     width: 100vw;
@@ -94,6 +324,8 @@
     grid-area: mn_4;
 }
 
+/*-------------------------------footer--------------------------------*/
+
 #ft {
     width: 100vw;
     height: 10vh;
@@ -108,4 +340,6 @@
 }
 #ft_2 {
    flex: 1; 
+}
+}
 }
