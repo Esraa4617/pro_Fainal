@@ -9,17 +9,18 @@
     #big_box {
         width: 100vw;
         height: 140vh;
-        background-color: antiquewhite;
+        background-color: lightseagreen;
     }
     /*-------------------------------header--------------------------------*/
 
 #hd {
     width: 100vw;
     height: 20vh;
-    background-color:white;
+    background-color:lightseagreen;
     /* border: 1px solid #000; */
     display: flex;
     flex-direction:column;
+    background-color: lightseagreen;
 }
 
 .hd_sec {
@@ -154,13 +155,15 @@
 }
 #image_2 {
     float: center;
-    width: 300px;
+    width: 200px;
     height: 250px;
+    border: 3px solid white;
 }
 #image_3 {
     float: center;
-    width: 300px;
+    width: 200px;
     height: 250px;
+    border: 3px solid white;
 }
 
 /*-------------------------------footer--------------------------------*/
@@ -168,7 +171,7 @@
 #ft {
     width: 100vw;
     height: 20vh;
-    background-color: white;
+    background-color: #000;
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
@@ -183,6 +186,7 @@
    flex-direction: row;
    /* gap: 1px solid white; */
    text-align: center;
+   color: white;
 }
 .h2 {
     font-size: 15px;
@@ -214,6 +218,7 @@
    flex: 1; 
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 20;
+   color: white;
 }
 }
 
@@ -323,7 +328,7 @@
     grid-template-columns: 2fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-    "mn_1 mm_4"
+    "mn_1 mn_4"
     "mn_2 mn_4"
     "mn_3 mn_4"
     ;
@@ -385,22 +390,23 @@
     grid-area: mn_4;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+    text-align: left;
     align-items: center;
-    justify-content:center;
-    text-align: center;
 }
 .ty_2 {
     font-size: 10px;
 }
 #image_2 {
     float: center;
-    width: 300px;
+    width: 200px;
     height: 250px;
+    border: 3px solid white;
 }
 #image_3 {
     float: center;
-    width: 300px;
+    width: 200px;
     height: 250px;
+    border: 3px solid white;
 }
 
 /*-------------------------------footer--------------------------------*/
