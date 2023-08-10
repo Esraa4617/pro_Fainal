@@ -305,6 +305,298 @@ text-align: center;
         height: 140vh;
         background-color: white;
     }
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #big_box {
+        width: 90vw;
+        height: 140vh;
+        background-color: white;
+        gap: 5vh;
+    }
+    /*-------------------------------header--------------------------------*/
+    #hd {
+        width: 90vw;
+        height:20vh;
+        display: flex;
+        flex-direction: column;
+        border: 10px solid white;
+        gap: 15px;
+    }
+    #hd_1 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #sec_1 {
+        flex: 2;
+        align-items: center;
+    }
+    #logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    
+    #sec_2 {
+        flex: 3;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    
+    #hd_2 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    #sec_3 {
+        flex: 1;
+        list-style: none;
+        display: flex;
+        gap: 5vw;
+        font-size: 30px;
+        justify-content: end;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .list_item {
+        /* border: 1px solid #000; */
+        padding: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    .list_item a {
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #button {
+        flex: 0.5;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #button a {
+        color: white;
+        background-color:mediumblue;
+        padding:15px 15px ;
+        font-size: 15px;
+        border: 1px solid mediumblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    /*-------------------------------main--------------------------------*/
+    #mn {
+    width: 90vw;
+    height: 475vh;
+    display: grid;
+    grid-template-columns: 2, 1fr ;
+    grid-template-rows: 2, 1fr;
+    grid-template-areas: 
+    "mn_1"
+    "mn_2"
+    "mn_3" 
+    "mn_4"
+    "mn_5" 
+    "mn_6"
+    "mn_7" 
+    "mn_8"
+    ;
+    gap: 10vh;
+    }
+    
+    #mn_1 {
+    grid-area: mn_1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 25px solid white;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .ty_1 {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    }
+    .ty_2 {
+    font-size: 35px;
+    color: mediumblue;
+    }
+    .ty_3 {
+    font-size: 15px;
+    }
+    #mn_2 {
+    grid-area: mn_2;
+    text-align: center;
+    
+    }
+    #img_1 {
+    width: 325px;
+    height: 350px;
+    border: 50px solid white;
+    }
+    #mn_3 {
+    grid-area: mn_3;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .ty_4 {
+    font-size: 60px;
+    color: mediumblue;
+    border: 20px solid white;
+    }
+    .ty_5 {
+    font-size: 25px;
+    text-align: justify;
+    }
+    
+    #mn_4 {
+    grid-area: mn_4;
+    text-align: center;
+    
+    }
+    #img_2 {
+    width: 300px;
+    height: 200px;
+    border: 10px solid white;
+    border: 25px solid white;
+    }
+    #mn_5 {
+    grid-area: mn_5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+    #mn_6 {
+    grid-area: mn_6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+    }
+    #img_3 {
+    width: 50px;
+    height: 50px;
+    border: 10px solid white;
+    }
+    #img_4 {
+    width: 100px;
+    height: 50px;
+    border: 10px solid white;
+    }
+    #mn_7 {
+    grid-area: mn_7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+    #mn_8 {
+    grid-area: mn_8;
+    }
+    
+    
+    
+    #image_1 {
+    float: right;
+    width: 300px;
+    height: 450px;
+    }
+    
+    #image_2 {
+    float: center;
+    width: 200px;
+    height: 250px;
+    border: 3px solid white;
+    }
+    #image_3 {
+    float: center;
+    width: 200px;
+    height: 250px;
+    border: 3px solid white;
+    }
+    
+    /*-------------------------------footer--------------------------------*/
+    
+    #ft {
+    width: 90vw;
+    height: 5vh;
+    background-color: mediumblue;
+    border: 50px solid mediumblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px solid white;
+    }
+    
+    #ft_1 {
+    flex: 3;
+    }
+    #icon_1 {
+    width: 6vw;
+    height: 6vh;
+    }
+    #icon_2 {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 25px;
+    }
+    #icon_3 {
+    width: 5vw;
+    height: 5vh;
+    }
+    #icon_4 {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50px;
+    }
+    #icon_6 {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50px;
+    }
+    #ft_2 {
+    flex: 1; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20;
+    }
+    .ty_6 {
+    font-size: 10px;
+    }
+    
+    /*--------------------------------------------project------------------------------------------------------*/
+    #img_5 {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 100px solid white;
+    }
+    .box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
 }
 
 /*-----------------------large screens---------------*/
